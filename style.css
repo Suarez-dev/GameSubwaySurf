@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+h1{
+    position: absolute;
+    font-family: sans-serif;
+    font-size: 2.5rem;
+    top: 500px;
+    border: 1px solid rgba(0, 0, 0, .2);
+    padding: 1rem;
+    color:rgba(0, 00, 0, .8);
+    cursor: pointer;
+    padding: 10px;
+    z-index: 10000;
+    margin: 20px;
+}
+h1:hover{
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, .8);
+    color: white;
+}
+
+#game{
+    width: 300px;
+    height: 500px;
+    border: 1px solid black;
+    margin: auto;
+    background-image: linear-gradient(to right top, #05070b, #1c2327, #2f3e3e, #4a5951, #6e7462);
+}
+
+#character{
+    width: 70px;
+    height: 70px;
+    background-image: linear-gradient(to right top, #15beea, #80bded, #afbee4, #c8c2d8, #cfcccf);
+    position: relative;
+    top: 300px;
+    left: 100px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+#block{
+    width: 100px;
+    height: 100px;
+    border: 1px solid white;
+    background-image: linear-gradient(to left bottom, #e10624, #e85f03, #e59200, #ddbe24, #d0e75b);
+    position: relative;
+    top: 500px;
+    animation: slide 1s infinite;
+    border-radius: 50%;
+}
+
+@keyframes slide{
+    0%{top: -100px}
+    1000%{top: 500px}
+}
+
+#white{
+    width: 300px;
+    height: 110px;
+    position: absolute;
+    top: 500px;
+    background-color: white;
+    z-index: 100;
+}
