@@ -1,4 +1,4 @@
 # GameSubwaySurf
 Practicing javascript!
 
-https://xein-dev.github.io/GameSubwaySurf/
+https://Suarez-dev.github.io/GameSubwaySurf/
